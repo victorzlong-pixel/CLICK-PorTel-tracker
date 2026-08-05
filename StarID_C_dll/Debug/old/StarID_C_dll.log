@@ -1,0 +1,54 @@
+﻿Build started 6/6/2017 5:51:35 PM.
+     1>Project "C:\Gits\GS_Tracking_KR\StarID_C_dll\StarID_C_dll.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D STARID_C_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt CatalogGeneration.c ExternFunctions.c GlobalVariables.c HSYMath.c ImgProcessing.c StarID_3DCorrelation.c StarID_Main.c TestStarGen.c
+         TestStarGen.c
+         StarID_Main.c
+     1>c:\gits\gs_tracking_kr\starid_c_dll\starid_main.c(26): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         StarID_3DCorrelation.c
+         ImgProcessing.c
+     1>c:\gits\gs_tracking_kr\starid_c_dll\imgprocessing.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         HSYMath.c
+         GlobalVariables.c
+         ExternFunctions.c
+     1>c:\gits\gs_tracking_kr\starid_c_dll\externfunctions.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\externfunctions.c(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\externfunctions.c(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         CatalogGeneration.c
+     1>c:\gits\gs_tracking_kr\starid_c_dll\cataloggeneration.c(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\cataloggeneration.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\cataloggeneration.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\cataloggeneration.c(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\gits\gs_tracking_kr\starid_c_dll\cataloggeneration.c(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.lib" /MACHINE:X86 /DLL Debug\CatalogGeneration.obj
+         Debug\ExternFunctions.obj
+         Debug\GlobalVariables.obj
+         Debug\HSYMath.obj
+         Debug\ImgProcessing.obj
+         Debug\StarID_3DCorrelation.obj
+         Debug\StarID_Main.obj
+         Debug\TestStarGen.obj
+            Creating library C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.lib and object C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.exp
+         StarID_C_dll.vcxproj -> C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.dll
+       PostBuildEvent:
+         xcopy "C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.dll" "C:\Gits\GS_Tracking_KR\NODE_GS_Tracking\bin\Debug\" /y /d
+         :VCEnd
+         C:\Gits\GS_Tracking_KR\Debug\StarID_C_dll.dll
+         1 File(s) copied
+     1>Done Building Project "C:\Gits\GS_Tracking_KR\StarID_C_dll\StarID_C_dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24

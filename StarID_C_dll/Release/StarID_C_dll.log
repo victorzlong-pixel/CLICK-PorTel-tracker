@@ -1,0 +1,24 @@
+﻿  CatalogGeneration.c
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\CatalogGeneration.c(12,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\CatalogGeneration.c(22,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\CatalogGeneration.c(33,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\CatalogGeneration.c(44,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\CatalogGeneration.c(54,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ExternFunctions.c
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\ExternFunctions.c(102,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\ExternFunctions.c(131,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GlobalVariables.c
+  HSYMath.c
+  ImgProcessing.c
+  StarID_3DCorrelation.c
+  StarID_Main.c
+C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\StarID_C_dll\StarID_Main.c(26,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  TestStarGen.c
+     Creating library C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\Release\StarID_C_dll.lib and object C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\Release\StarID_C_dll.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 59 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  StarID_C_dll.vcxproj -> C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\Release\StarID_C_dll.dll
+  C:\Users\victo\MIT Dropbox\Victor Long\MIT Summer 2026 Important\CLICK-PorTeL-master\Release\StarID_C_dll.dll
+  1 File(s) copied
