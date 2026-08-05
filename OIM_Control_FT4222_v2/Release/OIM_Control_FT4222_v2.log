@@ -1,0 +1,19 @@
+﻿Build started 6/6/2017 5:39:58 PM.
+     1>Project "C:\Gits\GS_Tracking_KR\OIM_Control_FT4222_v2\OIM_Control_FT4222_v2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt OIM_Control_FT4222.cpp
+         OIM_Control_FT4222.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.lib" /MACHINE:X86 /SAFESEH /DLL Release\OIM_Control_FT4222.obj
+         ftd2xx.lib
+         LibFT4222.lib
+            Creating library C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.lib and object C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.exp
+         Generating code
+         All 153 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         OIM_Control_FT4222_v2.vcxproj -> C:\Gits\GS_Tracking_KR\Release\OIM_Control_FT4222_v2.dll
+     1>Done Building Project "C:\Gits\GS_Tracking_KR\OIM_Control_FT4222_v2\OIM_Control_FT4222_v2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
