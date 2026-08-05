@@ -1,0 +1,28 @@
+﻿Build started 7/19/2017 4:44:34 PM.
+     1>Project "C:\Gits\GS_Tracking_KR\OIM_Control\OIM_Control.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\Copy\) contains files shared from another project (OIM_Control.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D OIM_CONTROL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\Copy\\" /Fd"x64\Debug\Copy\vc140.pdb" /Gd /TP /errorReport:prompt GPIO_Control.cpp OIM_Control.cpp
+         Skipping... (no relevant changes detected)
+         OIM_Control.cpp
+         GPIO_Control.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.lib" /MACHINE:X64 /DLL x64\Debug\Copy\GPIO_Control.obj
+         x64\Debug\Copy\OIM_Control.obj
+         ftd2xx.lib
+         libMPSSE.lib
+            Creating library C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.lib and object C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.exp
+     1>GPIO_Control.obj : error LNK2019: unresolved external symbol FT_WriteGPIO referenced in function "int __cdecl initGPIO(void *)" (?initGPIO@@YAHPEAX@Z)
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol SPI_GetNumChannels referenced in function initFT232H_SPI
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol SPI_OpenChannel referenced in function initFT232H_SPI
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol SPI_InitChannel referenced in function initFT232H_SPI
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol SPI_CloseChannel referenced in function closeFT232H_SPI
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol SPI_Write referenced in function "int __cdecl sendCmd(unsigned short,unsigned char)" (?sendCmd@@YAHGE@Z)
+     1>OIM_Control.obj : error LNK2019: unresolved external symbol Init_libMPSSE referenced in function initFT232H_SPI
+     1>libMPSSE.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Gits\GSFC_GS\x64\Debug\OIM201_Control.dll : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "C:\Gits\GS_Tracking_KR\OIM_Control\OIM_Control.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

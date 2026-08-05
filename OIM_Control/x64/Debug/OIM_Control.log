@@ -1,0 +1,18 @@
+﻿Build started 7/19/2017 4:32:53 PM.
+     1>Project "C:\Gits\GS_Tracking_KR\OIM_Control\OIM_Control.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Gits\GSFC_GS\x64\Debug\OIM_Control.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Gits\GSFC_GS\x64\Debug\OIM_Control.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Gits\GSFC_GS\x64\Debug\OIM_Control.lib" /MACHINE:X64 /DLL x64\Debug\GPIO_Control.obj
+         x64\Debug\OIM_Control.obj
+         ..\..\GSFC_GS\OIM_Control\libMPSSE.lib
+         ftd2xx.lib
+            Creating library C:\Gits\GSFC_GS\x64\Debug\OIM_Control.lib and object C:\Gits\GSFC_GS\x64\Debug\OIM_Control.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libMPSSE.lib(ftdi_infra.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libMPSSE.lib(ftdi_infra.obj)' or at 'C:\Gits\GSFC_GS\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libMPSSE.lib(ftdi_mid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libMPSSE.lib(ftdi_mid.obj)' or at 'C:\Gits\GSFC_GS\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libMPSSE.lib(ftdi_spi.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libMPSSE.lib(ftdi_spi.obj)' or at 'C:\Gits\GSFC_GS\x64\Debug\vc100.pdb'; linking object as if no debug info
+         OIM_Control.vcxproj -> C:\Gits\GSFC_GS\x64\Debug\OIM_Control.dll
+     1>Done Building Project "C:\Gits\GS_Tracking_KR\OIM_Control\OIM_Control.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
